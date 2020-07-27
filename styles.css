@@ -1,0 +1,77 @@
+body{
+    background-image: url(https://hdwallpaperim.com/wp-content/uploads/2017/08/23/465787-programming.jpg);
+    color:aliceblue;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    
+}
+.container{
+    background-color: rgb(92, 91, 91);
+    padding: 3rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column ;
+    
+}
+.form{
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 1rem;
+    column-gap: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    margin: 0;
+    text-align: center;
+}
+label{
+    font-weight: bold;
+}
+.character-amount-container{
+    display: flex;
+    align-items: center;
+}
+.number-input{
+   width: 2rem; 
+}
+.password-display{
+    background-color: aliceblue;
+    color: black;
+    padding: 1rem;
+    border: 1px solid #333;
+    border-radius: 7px;
+    height: 2rem;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-break: break-all;
+}
+.btn{
+grid-column: span 2;
+padding: 10px 30px;
+color: #2196f3;
+background-color: transparent;
+text-transform: uppercase;
+text-decoration: none;
+overflow: hidden;
+transition: 0.2s ;
+border:1px solid white;
+font-weight: bold;
+cursor: pointer;
+border-radius: 1rem;
+outline : none;
+}
+.btn:hover{
+  color: #255784;
+  background:#2196f3 ; 
+  box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3,0 0 60px #2196f3; 
+  
+}
